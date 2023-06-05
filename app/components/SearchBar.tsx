@@ -24,7 +24,7 @@ function SearchBar({ onSearch }: SearchBarProps) {
         type="text"
         aria-label="Search"
         onChange={handleChange}
-        className="border border-gray-300 text-blue-500 rounded-l py-2 px-4 w-full focus:outline-none focus:border-blue-500 "
+        className="border border-gray-300 text-black rounded-l py-2 px-4 w-full focus:outline-none focus:border-blue-500 "
         value={query}
       />
       <button
